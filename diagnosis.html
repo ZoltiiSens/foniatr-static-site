@@ -197,6 +197,10 @@ c186 -57 318 -162 401 -319 51 -96 82 -119 159 -119 29 0 52 -5 52 -10 0 -6
 							</div>
 						</div>
 						<div class="mb-5">
+              <video controls autoplay muted id="vid">
+                <source src="videos/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
 							<p>
 								Кожному пацієнту з осиплістю голосу різного ступеня тяжкості проводиться
                 таке обстеження:
@@ -475,6 +479,8 @@ c186 -57 318 -162 401 -319 51 -96 82 -119 159 -119 29 0 52 -5 52 -10 0 -6
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script defer>
+      document.getElementById('vid').play();
+  </script>
   </body>
 </html>
